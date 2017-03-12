@@ -1,0 +1,29 @@
+title: Zihao Lu's Blog
+
+author: Zihao Lu
+
+email: luzihao@smail.nju.edu.cn
+
+description: > # this means to ignore newlines until "baseurl:"
+  Zihao Lu is a researcher/designer/writer based in Shanghai, China.
+
+baseurl: "/jekyll-theme-kagami"
+
+lang: en # site language (en/ja/zh-Hans/zh-Hant)
+
+color_scheme: github # this specifies color scheme for syntax highlighting
+
+github_username: ZihaoLu
+
+twitter_username: ZihaoLu_
+
+instagram_username: zihaolu_
+
+# Build settings
+markdown: kramdown
+
+theme: jekyll-theme-kagami
+
+exclude:
+- Gemfile
+  - Gemfile.lock
