@@ -7,7 +7,7 @@ email: luzihao@smail.nju.edu.cn
 description: > # this means to ignore newlines until "baseurl:"
   Zihao Lu is a researcher/designer/writer based in Shanghai, China.
 
-baseurl: "/jekyll-theme-kagami"
+baseurl: ""
 
 lang: en # site language (en/ja/zh-Hans/zh-Hant)
 
