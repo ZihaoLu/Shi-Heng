@@ -7,9 +7,8 @@ baseurl: "/jekyll-theme-kagami"
 lang: en # site language (en/ja/zh-Hans/zh-Hant)
 color_scheme: github # this specifies color scheme for syntax highlighting
 github_username: ZihaoLu
-behance_username: lucientes
-dribbble_username: zihaolu
-linkedin_username: zihaolu
+twitter_username: ZihaoLu_
+instagram_username: zihaolu_
 
 # Build settings
 markdown: kramdown
