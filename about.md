@@ -1,11 +1,15 @@
 ---
 layout: page
 title: About
-cover_url: https://s2.banana.moe/unsplash_colle/amador-loureiro-779.jpg
 ---
 
-Kagami is a peaceful theme for Jekyll and GitHub Pages.
+陆梓豪，设计学徒，1993年制造，土产于无锡。
 
-The theme was firstly designed for <https://banana.moe> in late 2016 and have it's first release in March 2017 with a whole bunch of big changes in both design and implementation.
+这里是他的博客，用以盛放他间歇发作的写作欲。
 
-Visit [project home](https://github.com/kamikat/jekyll-theme-kagami) for source code and installation guides.
+>No poem is intended for the reader,
+>No picture for the beholder,
+>No symphony for the listener.
+
+写作亦如本雅明的这段论述，聊以自娱而已。
+
