@@ -1,2 +1,2 @@
-# zihaolu.github.io
+# zihaolu.io
 Personal website of Zihao Lu
