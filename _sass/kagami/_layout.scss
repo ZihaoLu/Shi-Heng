@@ -44,15 +44,15 @@ article {
   .highlight {
     position: relative;
     overflow: hidden;
-
+    
     code {
       display: block;
       overflow-x: auto;
     }
-
+    
     @include exdent-horizontally($hspacing);
     @include exdent-vertically(0.5 * $vspacing);
-
+    
     @media screen and (min-width: $content-width) {
       @include exdent-horizontally(2 * $hspacing);
     }
@@ -117,18 +117,13 @@ article {
 }
 
 .site-footer {
-  margin-top: $post-footer-spacing;
-  margin-bottom: $spacing-unit;
-  vertical-align: middle;
-  text-align: justify;
-  -moz-text-align-last: center;
-  text-align-last: center;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
 }
 
 .site-footer .wrapper::after {
   display: inline-block;
   content: '';
-  width: 100%;
 }
 
 .social-links {

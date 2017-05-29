@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="post" lang="{{ page.lang | default: site.lang | default: "en" }}" itemscope itemtype="http://schema.org/BlogPosting" >
 
   <header class="post-header">
@@ -26,7 +27,7 @@ layout: default
       {% if page.date %} <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> {% endif %}
       {% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author | escape }}</span></span> {% endif %}
     </div>
-
+    
     {% if page.tags.size > 0 %}
     <ul class="post-tags" aria-label="TagList">
       {% for tag in page.tags %}
