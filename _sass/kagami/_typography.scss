@@ -126,8 +126,6 @@ article {
 
 .site-nav {
   font-size: 0.875em;
-  font-variant-caps: all-petite-caps;
-  letter-spacing: 0.12em;
 }
 
 .page-link {
@@ -137,7 +135,7 @@ article {
 .site-nav:hover {
   color: lighten($content-color, 50%);
   .page-link:hover {
-    color: $content-color;
+    color: lighten($content-color, 50%);
   }
 }
 
