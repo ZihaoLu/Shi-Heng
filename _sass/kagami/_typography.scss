@@ -135,7 +135,7 @@ article {
 .site-nav:hover {
   color: lighten($content-color, 50%);
   .page-link:hover {
-    color: lighten($content-color, 50%);
+   color: $content-color;
   }
 }
 
@@ -192,7 +192,7 @@ article {
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.social-link:hover {
+.social-link: hover {
   transform: translateY(-0.25em); 
   &.social-github { color: #24292e; }
   &.social-dribbble { color: #ea4c89; }
