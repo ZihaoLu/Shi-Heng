@@ -8,7 +8,6 @@ body {
   font-size: font-size();
   font-weight: 300;
   font-kerning: normal;
-  border-top: 2px solid currentColor;
 }
 
 a, a:hover, a:visited {
@@ -50,7 +49,7 @@ article {
     hanging-punctuation: allow-end; // no browser supports this rule
   }
 
-  .aside, .sidenote, .side-note {
+  .aside, .sidenote {
     font-size: .72em;
   }
 
@@ -67,7 +66,7 @@ article {
   }
 
   img.half-size, img.retina2x {
-    // Supported by JavaScript
+    zoom: 0.5;
   }
 
   ul,
@@ -127,19 +126,6 @@ article {
 
 .site-nav {
   font-size: 0.875em;
-  font-variant-caps: all-petite-caps;
-  letter-spacing: 0.12em;
-}
-
-.page-link {
-  transition: color 0.2s ease-in;
-}
-
-.site-nav:hover {
-  color: lighten($content-color, 50%);
-  .page-link:hover {
-    color: $content-color;
-  }
 }
 
 .post-title {
@@ -196,7 +182,11 @@ article {
 }
 
 .social-link:hover {
+<<<<<<< HEAD
   transform: translateY(-0.25em); 
+=======
+  transform: translateY(-0.25em);
+>>>>>>> parent of ee95cad... Update Theme Kagami 0.1.10
   &.social-github { color: #24292e; }
   &.social-dribbble { color: #ea4c89; }
   &.social-instagram { color: #63d2f8; }
@@ -243,3 +233,4 @@ article {
   h2 { margin-left: -2px; }
   h3 { margin-left: -2px; }
 }
+

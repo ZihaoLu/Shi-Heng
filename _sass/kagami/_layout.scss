@@ -73,7 +73,7 @@ article {
     }
   }
 
-  .aside, .sidenote, .side-note {
+  .aside, .sidenote {
     width: 160px;
     float: left;
     margin-left: -$post-margin-width;
@@ -85,15 +85,8 @@ article {
     h2, h3, h4, h5, h6 {
       &::before { color: rgba(0,0,0,0); }
     }
-    .aside, .sidenote, .side-note {
+    .aside, .sidenote {
       display: none;
-    }
-  }
-
-  @media screen and (min-width: $content-width) {
-    .hero-unit {
-      margin-left: -$post-margin-width;
-      margin-right: -$post-margin-width;
     }
   }
 
@@ -119,50 +112,35 @@ article {
   margin-bottom: $post-footer-spacing;
 }
 
-.site-nav {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: top;
-  justify-content: center;
-  margin-left: -$post-margin-width;
-  margin-right: -$post-margin-width;
-}
-
-@media screen and (min-width: $content-width) {
-  .site-nav {
-    height: 0;
-    justify-content: flex-end;
-  }
-}
-
 .page-link {
-  display: block;
-  padding: 0.5em;
+  margin-right: 0.25em;
 }
 
 .site-footer {
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
+  margin-top: $post-footer-spacing;
+  margin-bottom: $spacing-unit;
+  vertical-align: middle;
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
 }
 
-.site-footer .wrapper {
-  display: flex;
+.site-footer .wrapper::after {
+  display: inline-block;
+  content: '';
   width: 100%;
-  flex-flow: row-reverse wrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .social-links {
+  display: inline-block;
   text-align: center;
   margin: 1em (-$content-padding);
   padding: 0 0.3em;
-  white-space: nowrap;
 }
 
 .credits {
   margin-left: -0.256em;
-  white-space: nowrap;
+  display: inline-block;
 }
 
 .post-list-item {
