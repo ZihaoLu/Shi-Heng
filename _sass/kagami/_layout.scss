@@ -117,8 +117,12 @@ article {
 }
 
 .site-footer {
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
+  margin-top: $post-footer-spacing;
+  margin-bottom: $spacing-unit;
+  vertical-align: middle;
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
 }
 
 .site-footer .wrapper::after {
