@@ -16,7 +16,7 @@ layout: default
     <div class="post-item-meta">
       {{ post.date | date: "%B %-d, %Y" }}
       /
-      {% capture lang %}{{ post.lang | default: site.lang | default: "en" }}{% endcapture %}
+      {% capture lang %}{{ post.lang | default: site.lang | default: "zh-Hans" }}{% endcapture %}
       {% if lang == "zh-Hans" %}
       {% capture words %}{{ post.content | strip_html | number_of_words  }}{% endcapture %}
       {% else %}
