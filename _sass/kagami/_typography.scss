@@ -1,3 +1,11 @@
+
+@function source-han($type) {
+	@return
+		"Source Han #{$type} TC", "Source Han #{$type} TW", "Noto #{$type} CJK TC",
+		"Source Han #{$type} SC", "Source Han #{$type} CN", "Noto #{$type} CJK SC",
+		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC";
+}
+
 [lang^="en"]      { line-height: 1.6; @include font-serif; }
 [lang^="zh-Hans"] { line-height: 1.8; @include font-serif-zh-Hans; }
 [lang^="zh-Hant"] { line-height: 1.8; @include font-serif-zh-Hant; }
