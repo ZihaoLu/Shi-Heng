@@ -6,7 +6,7 @@
 body {
   color: $content-color;
   font-size: font-size();
-  font-weight: 300;
+  font-weight: 400;
   font-kerning: normal;
 }
 
@@ -21,10 +21,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 { font-size: 1.8em; }
-h2 { font-weight: bold; font-size: 1.4em; }
-h3 { font-weight: bold; font-size: 1.2em; }
-h4 { font-weight: bold; }
-h5 { font-weight: bold; }
+h2 { font-weight: 700; font-size: 1.4em; }
+h3 { font-weight: 700; font-size: 1.2em; }
+h4 { font-weight: 700; }
+h5 { font-weight: 700; }
 
 article {
 
@@ -58,7 +58,7 @@ article {
   }
 
   strong {
-    font-weight: bold;
+    font-weight: 700;
   }
 
   a, a:hover, a:visited {
@@ -194,7 +194,7 @@ article {
 
 .social-link:hover {
   transform: translateY(-0.25em); 
-  &.social-github { color: #959595; }
+  &.social-github { color: #626262; }
   &.social-dribbble { color: #ea4c89; }
   &.social-instagram { color: #63d2f8; }
 }

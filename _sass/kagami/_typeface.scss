@@ -1,39 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Press+Start+2P');
 
 @font-face {
-  font-family: "Kagami SC";
-  font-weight: normal;
+  font-family: "source-han-serif-sc",serif;
   font-style: normal;
-  src: url('https://zihaolu.github.io/assets/font/SourceHanSerifCN-Regular.woff2') format('woff2'),
-    url('https://zihaolu.github.io/assets/font/SourceHanSerifCN-Regular.woff') format('woff'),
-    url('https://zihaolu.github.io/assets/font/SourceHanSerifCN-Regular.otf') format('opentype');
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "Kagami SC";
-  font-weight: bold;
-  font-style: normal;
-  src: url('https://zihaolu.github.io/assets/font/SourceHanSerifCN-Bold.woff2') format('woff2'),
-    url('https://zihaolu.github.io/assets/font/SourceHanSerifCN-Bold.woff') format('woff'),
-    url('https://zihaolu.github.io/assets/font/SourceHanSerifCN-Bold.otf') format('opentype');
+   font-family: "source-han-serif-sc",serif;
+   font-style: normal;
+   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Kagami TC";
-  font-weight: normal;
-  font-style: normal;
-  src: url('https://zihaolu.github.io/assets/font/SourceHanSerifTW-Regular.woff2') format('woff2'),
-    url('https://zihaolu.github.io/assets/font/SourceHanSerifTW-Regular.woff') format('woff'),
-    url('https://zihaolu.github.io/assets/font/SourceHanSerifTW-Regular.otf') format('opentype');
+   font-family: "source-han-serif-tc",serif;
+   font-style: normal;
+   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Kagami TC";
-  font-weight: bold;
-  font-style: normal;
-  src: url('https://zihaolu.github.io/assets/font/SourceHanSerifTW-Bold.woff2') format('woff2'),
-    url('https://zihaolu.github.io/assets/font/SourceHanSerifTW-Bold.woff') format('woff'),
-    url('https://zihaolu.github.io/assets/font/SourceHanSerifTW-Bold.otf') format('opentype');
+   font-family: "source-han-serif-tc",serif;
+   font-style: normal;
+   font-weight: 700;
 }
 
 @font-face {
@@ -54,15 +42,15 @@
 }
 
 @mixin font-serif-zh-Hans($font-family-fallback: sans-serif) {
-  font-family: "Kagami SC", "Crimson Text",  $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "source-han-serif-sc", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-zh-Hant($font-family-fallback: sans-serif) {
-  font-family: "Kagami TC", "Crimson Text",  $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "source-han-serif-tc", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-ja($font-family-fallback: sans-serif) {
-  font-family: "YuMincho", "Crimson Text", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "YuMincho", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-monospace($font-family-fallback: monospace) {
