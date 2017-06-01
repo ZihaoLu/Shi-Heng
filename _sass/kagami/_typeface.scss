@@ -1,4 +1,4 @@
-$names:  "", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "", "Heavy";
+$names:  "Regular", "Bold";
 
 @mixin source-han-serif($locale, $weight: 400, $name: nth($names, $weight / 100)) {
 
