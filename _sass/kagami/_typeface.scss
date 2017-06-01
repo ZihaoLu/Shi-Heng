@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Press+Start+2P');
 
-$names: "", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "", "Heavy";
-
-@mixin source-han-serif($locale, $weight: 400, $name: nth($names, $weight / 100)) {
-
-	@font-face {
-		font-family: "Source Han Serif Web " + $locale;
-		font-weight: $weight;
-		unicode-range: U+11??, U+2E00-9FFF, U+A960-A97F, U+AC00-D7FF, U+F900-FAFF, U+FE1?, U+FE30-FE6F, U+FF00-FFEF, U+2????;
-		src: url("https://zihaolu.github.io/assets/font/SourceHanSerif#{$locale}-#{$name}.woff2") format("woff2"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerif#{$locale}-#{$name}.woff") format("woff"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerif#{$locale}-#{$name}.otf") format("opentype");
-	}
-}
-
 @font-face {
   font-family: "source-han-serif-sc",serif;
   font-style: normal;
@@ -56,11 +42,11 @@ $names: "", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "", 
 }
 
 @mixin font-serif-zh-Hans($font-family-fallback: sans-serif) {
-  font-family: "Crimson Text", "source-han-serif-sc", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif CJK SC", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "source-han-serif-sc", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-zh-Hant($font-family-fallback: sans-serif) {
-  font-family: "Crimson Text", "source-han-serif-tc", "Source Han Serif TC", "Source Han Serif TW", "Noto Serif CJK TC", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "source-han-serif-tc", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-ja($font-family-fallback: sans-serif) {
