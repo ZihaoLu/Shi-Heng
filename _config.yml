@@ -11,6 +11,8 @@ baseurl: ""
 
 lang: en # site language (en/ja/zh-Hans/zh-Hant)
 
+typekit_kit_id: gim6afx
+
 color_scheme: github # this specifies color scheme for syntax highlighting
 
 github_username: ZihaoLu
