@@ -11,15 +11,3 @@ $names:  "Regular", "Bold";
 		url("https://zihaolu.github.io/assets/font/SourceHanSerif#{$locale}-#{$name}.otf") format("opentype");
 	}
 }
-
-@mixin font-serif($font-family-fallback: serif) {
-  font-family: Merriweather, Georgia, "Times New Roman", Times, source-han("Serif"), "Source Han Serif Web CN", "Source Han Serif Web TW", serif;
-}
-
-@mixin font-monospace($font-family-fallback: monospace) {
-  font-family: Courier, Monaco, $font-family-fallback;
-}
-
-@function font-size($factor: 1.0) {
-  @return $font-size * $factor;
-}
