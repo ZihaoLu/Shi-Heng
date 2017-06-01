@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Press+Start+2P');
 
-@function source-han($type) {
-	@return
-		"Source Han #{$type} TC", "Source Han #{$type} TW", "Noto #{$type} CJK TC",
-		"Source Han #{$type} SC", "Source Han #{$type} CN", "Noto #{$type} CJK SC",
-		"Source Han #{$type}", "Noto #{$type} TC", "Noto #{$type} SC";
-}
-
-$names: "Regular",  "Bold";
+$names: "", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "", "Heavy";
 
 @mixin source-han-serif($locale, $weight: 400, $name: nth($names, $weight / 100)) {
 
@@ -22,39 +15,27 @@ $names: "Regular",  "Bold";
 }
 
 @font-face {
-  font-family: "Kagami SC";
-  src: url("https://zihaolu.github.io/assets/font/SourceHanSerifCN-Regular.woff2") format("woff2"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerifCN-Regular.woff") format("woff"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerifCN-Regular.otf") format("opentype");
+  font-family: "source-han-serif-sc",serif;
+  font-style: normal;
   font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
-  font-family: "Kagami SC";
-  src: url("https://zihaolu.github.io/assets/font/SourceHanSerifCN-Bold.woff2") format("woff2"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerifCN-Bold.woff") format("woff"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerifCN-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
+   font-family: "source-han-serif-sc",serif;
+   font-style: normal;
+   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Kagami TC";
-  src: url("https://zihaolu.github.io/assets/font/SourceHanSerifTW-Regular.woff2") format("woff2"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerifTW-Regular.woff") format("woff"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerifTW-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
+   font-family: "source-han-serif-tc",serif;
+   font-style: normal;
+   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Kagami TC";
-  src: url("https://zihaolu.github.io/assets/font/SourceHanSerifTW-Bold.woff2") format("woff2"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerifTW-Bold.woff") format("woff"),
-		     url("https://zihaolu.github.io/assets/font/SourceHanSerifTW-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
+   font-family: "source-han-serif-tc",serif;
+   font-style: normal;
+   font-weight: 700;
 }
 
 @font-face {
@@ -75,11 +56,11 @@ $names: "Regular",  "Bold";
 }
 
 @mixin font-serif-zh-Hans($font-family-fallback: sans-serif) {
-  font-family: "Crimson Text", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif CJK SC", source-han("Serif"), "Source Han Serif Web CN", "Kagami SC", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "source-han-serif-sc", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif CJK SC", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-zh-Hant($font-family-fallback: sans-serif) {
-  font-family: "Crimson Text", "Source Han Serif TC", "Source Han Serif TW", "Noto Serif CJK TC", source-han("Serif"), "Source Han Serif Web TW", "Kagami TC", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "source-han-serif-tc", "Source Han Serif TC", "Source Han Serif TW", "Noto Serif CJK TC", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-ja($font-family-fallback: sans-serif) {
