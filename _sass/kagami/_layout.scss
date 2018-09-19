@@ -130,12 +130,8 @@ article {
 
 @media screen and (min-width: $content-width) {
   .site-nav {
-
-```
-height: 0;
-justify-content: flex-end;
-```
-
+   height: 0;
+   justify-content: flex-end;
   }
 }
 

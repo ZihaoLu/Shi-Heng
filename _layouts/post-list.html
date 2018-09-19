@@ -31,7 +31,7 @@ layout: default
   {% for post in posts %}
   <li class="post-list-item" data-tags="{{ post.tags | join: " " }}">
 
-```
+
 {% if post.cover_url %}
 <div class="post-item-cover" style="background-image: url('{{ post.cover_url }}')"></div>
 {% endif %}
@@ -56,7 +56,7 @@ layout: default
     {% endunless %}
   </div>
 </div>
-```
+
 
   </li>
   {% endfor %}
