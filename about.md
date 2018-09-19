@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+position: 100
 navlevel: header
 navtitle: about
 ---

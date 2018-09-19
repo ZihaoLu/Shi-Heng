@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-position: 100
+position: 200
 navlevel: header
 navtitle: contact
 ---
