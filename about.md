@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+navlevel: header
+navtitle: about
 ---
 
 陆梓豪，设计学徒，1993年制造，土产于无锡。
