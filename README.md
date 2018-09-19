@@ -1,2 +1,2 @@
 # zihaolu.io
-Personal website of Zihao Lu
+Personal blog of Zihao Lu

@@ -8,6 +8,7 @@ body {
   font-size: font-size();
   font-weight: 400;
   font-kerning: normal;
+  border-top: 2px solid currentColor;
 }
 
 a, a:hover, a:visited {
@@ -126,6 +127,8 @@ article {
 
 .site-nav {
   font-size: 0.875em;
+  font-variant-caps: all-petite-caps;
+  letter-spacing: 0.12em;
 }
 
 .page-link {
@@ -221,6 +224,16 @@ article {
   color: lighten($content-color, 40%);
 }
 
+.post-list-item .post-item-cover {
+  opacity: 0.03;
+  transition: opacity 0.5s ease-out;
+}
+
+.post-list-item:hover .post-item-cover {
+  opacity: 0.15;
+  transition: opacity 0.5s ease-out;
+}
+
 .cover-meta {
   font-family: "Press Start 2P", cursive;
   font-variant-caps: all-petite-caps;
@@ -239,5 +252,15 @@ article {
   h1 { margin-left: -1px; }
   h2 { margin-left: -2px; }
   h3 { margin-left: -2px; }
+}
+
+.baseline-fix {
+  visibility: hidden;
+}
+
+.baseline-fix-block {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0.95em;
 }
 

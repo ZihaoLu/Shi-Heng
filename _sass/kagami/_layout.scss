@@ -73,7 +73,7 @@ article {
     }
   }
 
-  .aside, .sidenote {
+  .aside, .sidenote, .side-note {
     width: 160px;
     float: left;
     margin-left: -$post-margin-width;
@@ -88,6 +88,17 @@ article {
     .aside, .sidenote {
       display: none;
     }
+  }
+
+  @media screen and (min-width: $content-width) {
+
+```
+.hero-unit {
+  margin-left: -$post-margin-width;
+  margin-right: -$post-margin-width;
+}
+```
+
   }
 
   h1, h2, h3, h4, h5, h6 { // reduce spacing after headings
@@ -112,40 +123,75 @@ article {
   margin-bottom: $post-footer-spacing;
 }
 
+.site-nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: top;
+  justify-content: center;
+  margin-left: -$post-margin-width;
+  margin-right: -$post-margin-width;
+}
+
+@media screen and (min-width: $content-width) {
+  .site-nav {
+
+```
+height: 0;
+justify-content: flex-end;
+```
+
+  }
+}
+
 .page-link {
-  margin-right: 0.25em;
+  display: block;
+  padding: 0.5em;
 }
 
 .site-footer {
-  margin-top: $post-footer-spacing;
-  margin-bottom: $spacing-unit;
-  vertical-align: middle;
-  text-align: justify;
-  -moz-text-align-last: center;
-  text-align-last: center;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
 }
 
-.site-footer .wrapper::after {
-  display: inline-block;
-  content: '';
+.site-footer .wrapper {
+  display: flex;
   width: 100%;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social-links {
-  display: inline-block;
   text-align: center;
   margin: 1em (-$content-padding);
   padding: 0 0.3em;
+  white-space: nowrap;
 }
 
 .credits {
   margin-left: -0.256em;
-  display: inline-block;
+  white-space: nowrap;
 }
 
 .post-list-item {
+  position: relative;
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
+}
+
+.post-item-cover {
+  width: 100vw;
+  position: absolute;
+  top: -.5 * $spacing-unit;
+  bottom: -.5 * $spacing-unit;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-size: cover;
+  background-position: center;
+}
+
+.post-item-label {
+  position: relative;
 }
 
 .post-description {
