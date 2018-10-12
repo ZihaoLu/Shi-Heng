@@ -10,11 +10,11 @@ navtitle: about
 
 这里是他的博客，用以盛放他间歇发作的写作欲。
 
->No poem is intended for the reader,
->
->No picture for the beholder,
->
->No symphony for the listener.
+&emsp;&emsp;No poem is intended for the reader,
+
+&emsp;&emsp;No picture for the beholder,
+
+&emsp;&emsp;No symphony for the listener.
 
 写作亦如本雅明的这段论述，聊以自娱而已。
 
