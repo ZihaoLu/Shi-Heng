@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 空白之页向四方展开
-cover_url: http://o8nwgxguw.bkt.clouddn.com/2017-06-20.png
+cover_url: https://i.loli.net/2018/10/12/5bc00e6f3369d.png
 ---
 
 书籍是文字的密林，阅读是诱人的长征。一个时代必有一个时代的阅读风尚，新的时代往往孕育出新的阅读思潮。
@@ -22,4 +22,4 @@ cover_url: http://o8nwgxguw.bkt.clouddn.com/2017-06-20.png
 
 「选书师」不特别标榜文学、艺术、社会或科技的任何一种书籍的阅读，也不特别强调任何一种阅读方法，但它也有所重视和关怀——对整个时代、社会、人群、文化的关怀。当超新星爆发的灿烂逝去，朦朦胧胧的星云残骸充斥宇内之时，正是新的发光体发轫的前奏。「空白之页向四方展开。」欢迎海内外阅读者与书写者一同携手，共同创造属于我们的阅读时代。
 
-[readirector](http://readirector.com)
+[选书师 readirector](http://readirector.com)
