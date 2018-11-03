@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 轰响泥泞的黑色春天
-cover_url: https://i.loli.net/2018/10/12/5bc044e9b0b6a.png
+cover_url: https://i.loli.net/2018/11/03/5bdd1b5b59d79.png
 ---
 
 试想一下，在未来，出生于21世纪的诗人将用怎样的意象描绘极权政治的罪愆和流亡生活的伤疤？
@@ -38,7 +38,7 @@ cover_url: https://i.loli.net/2018/10/12/5bc044e9b0b6a.png
 
 于是便有了《日瓦戈医生》。便有了有别于同期一切「革命叙事文学」的特质，诚如我文学上的启蒙者陈之藩先生所言：「这本书的与众不同处，它也写革命的激情，但也写激情的狂潮过后的低落；他也描人物的爱恋，但人物大都是不知所终。」（陈之藩《〈在春风里〉序》，2005年6月12日）
 
-![image@2x](https://i.loli.net/2018/10/12/5bc044dc97ef2.jpg){:.retina2x}
+![image@2x](https://i.loli.net/2018/11/03/5bdd1b5d0b494.jpg){:.retina2x}
 
 我读过蓝英年译本、力冈译本，在读 Richard Pevear 和 Larissa Volokhonsky 的新版英译本，看过 David Lean 著名的电影版，也试着看过 Aleksandr Proshkin 导演的电视剧。蓝英年的译文好，力冈的译诗好，英译本缺乏比较不敢妄言。而电影里 Omar Sharif 那晶澈的眼眸，恰如帕斯捷尔纳克抑或是日瓦戈医生本人立在那里，吟咏着「夜色和一千个望远镜，正在对准我。上帝，天父，可能的话，从我这儿拿走杯子。」（帕斯捷尔纳克《哈姆雷特》，1946年，北岛 译）这倒让我觉得，电视剧版兴味萧然，不看也罢了。
 
@@ -52,7 +52,7 @@ cover_url: https://i.loli.net/2018/10/12/5bc044e9b0b6a.png
 
 是日瓦戈。
 
-![image@2x](https://i.loli.net/2018/10/12/5bc044d99fe0b.jpg){:.retina2x}
+![image@2x](https://i.loli.net/2018/11/03/5bdd1b5ce7597.jpg){:.retina2x}
 
 附：
 

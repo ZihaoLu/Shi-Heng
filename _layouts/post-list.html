@@ -52,7 +52,7 @@ layout: default
     {% capture words %}{{ post.content | strip_html | size }}{% endcapture %}
     {% endif %}
     {% unless words contains "-" %}
-    {{ words | plus: 300 | divided_by: 400 | append: " minute read"  }}
+    {{ words | plus: 400 | divided_by: 200 | append: " minute read"  }}
     {% endunless %}
   </div>
 </div>
