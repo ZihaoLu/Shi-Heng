@@ -2,6 +2,7 @@
 layout: post
 title: 轰响泥泞的黑色春天
 cover_url: https://i.loli.net/2018/11/03/5bdd1b5b59d79.png
+tag: Read
 ---
 
 试想一下，在未来，出生于21世纪的诗人将用怎样的意象描绘极权政治的罪愆和流亡生活的伤疤？

@@ -2,6 +2,7 @@
 layout: post
 title: 空白之页向四方展开
 cover_url: https://i.loli.net/2018/11/03/5bdd1a445565d.png
+tag: Read
 ---
 
 书籍是文字的密林，阅读是诱人的长征。一个时代必有一个时代的阅读风尚，新的时代往往孕育出新的阅读思潮。
