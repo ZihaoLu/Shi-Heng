@@ -22,11 +22,11 @@ navtitle: about
 
 一些足迹
 
-<a href="https://www.douban.com/people/LucienLorca/" target="_blank">豆瓣</a> | <a href="https://www.zhihu.com/people/lorcha" target="_blank">知乎</a> | <a href="https://weibo.com/lucientes" target="_blank">微博</a> | <a href="https://www.instagram.com/l.o.r.c.a/" target="_blank">Instagram</a> 
+<a href="https://www.douban.com/people/LucienLorca/" target="_blank">豆瓣</a>&ensp;|&ensp;<a href="https://www.zhihu.com/people/lorcha" target="_blank">知乎</a>&ensp;|&ensp;<a href="https://weibo.com/lucientes" target="_blank">微博</a>&ensp;|&ensp;<a href="https://www.instagram.com/l.o.r.c.a/" target="_blank">Instagram</a>
 
-<a href="https://zihaolu.com" target="_blank">作品集</a> | <a href="https://www.behance.net/zihaolu" target="_blank">Behance</a> | <a href="https://dribbble.com/zihaolu" target="_blank">Dribbble</a> | <a href="https://lucientes.zcool.com.cn/" target="_blank">站酷</a> 
+<a href="https://zihaolu.com" target="_blank">作品集</a>&ensp;|&ensp;<a href="https://www.behance.net/zihaolu" target="_blank">Behance</a>&ensp;|&ensp;<a href="https://dribbble.com/zihaolu" target="_blank">Dribbble</a>&ensp;|&ensp;<a href="https://lucientes.zcool.com.cn/" target="_blank">站酷</a>
 
-<a href="https://readirector.com" target="_blank">选书师</a> | <a href="https://github.com/ZihaoLu" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/zihaolu/" target="_blank">LinkedIn</a>
+<a href="https://readirector.com" target="_blank">选书师</a>&ensp;|&ensp;<a href="https://github.com/ZihaoLu" target="_blank">GitHub</a>&ensp;|&ensp;<a href="https://www.linkedin.com/in/zihaolu/" target="_blank">LinkedIn</a>
 
 ---
 
