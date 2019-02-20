@@ -22,12 +22,12 @@ navtitle: about
 
 一些足迹
 
-[豆瓣](https://www.douban.com/people/LucienLorca/){:target="_blank"} | [知乎](https://www.zhihu.com/people/lorcha){:target="_blank"} | [微博](https://weibo.com/lucientes){:target="_blank"} | [Instagram](https://www.instagram.com/l.o.r.c.a/){:target="_blank"} 
+<a href="https://www.douban.com/people/LucienLorca/" target="_blank">豆瓣</a> | <a href="https://www.zhihu.com/people/lorcha" target="_blank">知乎</a> | <a href="https://weibo.com/lucientes" target="_blank">微博</a> | <a href="https://www.instagram.com/l.o.r.c.a/" target="_blank">Instagram</a> 
 
-[作品集](https://zihaolu.com){:target="_blank"} | [Behance](https://www.behance.net/zihaolu){:target="_blank"} | [Dribbble](https://dribbble.com/zihaolu){:target="_blank"} | [站酷](https://lucientes.zcool.com.cn/){:target="_blank"} 
+<a href="https://zihaolu.com" target="_blank">作品集</a> | <a href="https://www.behance.net/zihaolu" target="_blank">Behance</a> | <a href="https://dribbble.com/zihaolu" target="_blank">Dribbble</a> | <a href="https://lucientes.zcool.com.cn/" target="_blank">站酷</a> 
 
-[选书师](https://readirector.com){:target="_blank"} | [GitHub](https://github.com/ZihaoLu){:target="_blank"} | [LinkedIn](https://www.linkedin.com/in/zihaolu/){:target="_blank"}
+<a href="https://readirector.com" target="_blank">选书师</a> | <a href="https://github.com/ZihaoLu" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/zihaolu/" target="_blank">LinkedIn</a>
 
 ---
 
-如无特殊说明，本站内容均采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh) 许可协议。
+如无特殊说明，本站内容均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">CC BY-NC-ND 4.0</a> 许可协议。

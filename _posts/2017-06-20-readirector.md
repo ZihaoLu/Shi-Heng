@@ -35,5 +35,5 @@ Z世代系欧美流行用语，意指在1990年代中叶至2000年后出生的�
 
 ---
 
-[选书师 Readirector](https://readirector.com){:target="_blank"}
+欢迎访问 <a href="https://readirector.com" target="_blank">选书师 Readirector</a>
 
