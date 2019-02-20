@@ -21,9 +21,12 @@ navtitle: about
 ---
 
 一些足迹
-[豆瓣](https://www.douban.com/people/LucienLorca/) | [知乎](https://www.zhihu.com/people/lorcha) | [微博](https://weibo.com/lucientes) | [Instagram](https://www.instagram.com/l.o.r.c.a/) 
-[作品集](https://zihaolu.com) | [Behance](https://www.behance.net/zihaolu) | [Dribbble](https://dribbble.com/zihaolu) | [站酷](https://lucientes.zcool.com.cn/) 
-[选书师](https://readirector.com) | [GitHub](https://github.com/ZihaoLu) | [LinkedIn](https://www.linkedin.com/in/zihaolu/)
+
+[豆瓣](https://www.douban.com/people/LucienLorca/){:target="_blank"} | [知乎](https://www.zhihu.com/people/lorcha){:target="_blank"} | [微博](https://weibo.com/lucientes){:target="_blank"} | [Instagram](https://www.instagram.com/l.o.r.c.a/){:target="_blank"} 
+
+[作品集](https://zihaolu.com){:target="_blank"} | [Behance](https://www.behance.net/zihaolu){:target="_blank"} | [Dribbble](https://dribbble.com/zihaolu){:target="_blank"} | [站酷](https://lucientes.zcool.com.cn/){:target="_blank"} 
+
+[选书师](https://readirector.com){:target="_blank"} | [GitHub](https://github.com/ZihaoLu){:target="_blank"} | [LinkedIn](https://www.linkedin.com/in/zihaolu/){:target="_blank"}
 
 ---
 
