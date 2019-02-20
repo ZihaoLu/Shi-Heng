@@ -40,6 +40,15 @@ article {
     margin-top: 0;
     margin-bottom: 0;
   }
+  
+  .task-list-item {
+    list-style-type: none;
+  }
+
+  .task-list-item-checkbox {
+    margin: 0 .5em .3em -1.6em;
+    vertical-align: middle;
+  }
 
   .highlight {
     position: relative;
