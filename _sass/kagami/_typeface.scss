@@ -45,18 +45,18 @@
 }
 
 @mixin font-serif($font-family-fallback: serif) {
-  font-family: "Crimson Text", "Noto Serif", "Source Han Serif", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "Noto Serif", "Noto Serif CJK", "Noto Serif SC", "Noto Serif CJK SC", "Noto Serif TC", "Noto Serif CJK TC", "Source Han Serif", "Source Han Serif SC", "Source Han Serif CN", source-han-serif-sc, "Source Han Serif TC", "Source Han Serif TW", source-han-serif-tc, "Kagami SC", "Kagami TC", $font-family-fallback, "Kagami Emoji";
 }
 
-@mixin font-serif-zh-Hans($font-family-fallback: sans-serif) {
+@mixin font-serif-zh-Hans($font-family-fallback: serif) {
   font-family: "Crimson Text", "Noto Serif SC", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", source-han-serif-sc, "Kagami SC", $font-family-fallback, "Kagami Emoji";
 }
 
-@mixin font-serif-zh-Hant($font-family-fallback: sans-serif) {
+@mixin font-serif-zh-Hant($font-family-fallback: serif) {
   font-family: "Crimson Text", "Noto Serif TC", "Noto Serif CJK TC", "Noto Serif CJK", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif", source-han-serif-tc, "Kagami TC", $font-family-fallback, "Kagami Emoji";
 }
 
-@mixin font-serif-ja($font-family-fallback: sans-serif) {
+@mixin font-serif-ja($font-family-fallback: serif) {
   font-family: "Crimson Text", "YuMincho", "Noto Serif JP", "Source Han Serif JP", "Source Han Serif", source-han-serif-jp, $font-family-fallback, "Kagami Emoji";
 }
 
