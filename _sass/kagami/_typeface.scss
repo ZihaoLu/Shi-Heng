@@ -1,27 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Press+Start+2P');
+@import url('https://fonts.loli.net/css?family=Crimson+Text:400,700|Press+Start+2P');
+@import url('https://fonts.loli.net/css?family=Noto+Serif+SC:400,700&subset=chinese-simplified');
+@import url('https://fonts.loli.net/css?family=Noto+Serif+TC:400,700&subset=chinese-traditional');
+@import url('https://fonts.loli.net/css?family=Noto+Serif+JP:400,700&subset=japanese');
 
 @font-face {
-  font-family: "source-han-serif-sc",serif;
+  font-family: "Kagami SC";
+  src: local("Songti SC Regular"), local(STSongti-SC-Regular);
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
 }
 
 @font-face {
-   font-family: "source-han-serif-sc",serif;
-   font-style: normal;
-   font-weight: 700;
+  font-family: "Kagami SC";
+  src: local("Songti SC Bold"), local(STSongti-SC-Bold);
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-   font-family: "source-han-serif-tc",serif;
-   font-style: normal;
-   font-weight: 400;
+  font-family: "Kagami TC";
+  src: local("Songti TC Regular"), local(STSongti-TC-Regular);
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-   font-family: "source-han-serif-tc",serif;
-   font-style: normal;
-   font-weight: 700;
+  font-family: "Kagami TC";
+  src: local("Songti TC Bold"), local(STSongti-TC-Bold);
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
@@ -34,27 +41,27 @@
 }
 
 @mixin font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Kagami Emoji";
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Roboto, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif, "Kagami Emoji";
 }
 
 @mixin font-serif($font-family-fallback: serif) {
-  font-family: "Crimson Text", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "Noto Serif", "Source Han Serif", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-zh-Hans($font-family-fallback: sans-serif) {
-  font-family: "Crimson Text", "source-han-serif-sc", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "Noto Serif SC", "Noto Serif CJK SC", "Noto Serif CJK", "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif", source-han-serif-sc, "Kagami SC", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-zh-Hant($font-family-fallback: sans-serif) {
-  font-family: "Crimson Text", "source-han-serif-tc", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "Noto Serif TC", "Noto Serif CJK TC", "Noto Serif CJK", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif", source-han-serif-tc, "Kagami TC", $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-ja($font-family-fallback: sans-serif) {
-  font-family: "Crimson Text", "YuMincho", $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "YuMincho", "Noto Serif JP", "Source Han Serif JP", "Source Han Serif", source-han-serif-jp, $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-monospace($font-family-fallback: monospace) {
-  font-family: Courier, Monaco, $font-family-fallback;
+  font-family: Menlo, Consolas, Monaco, Courier, $font-family-fallback, "Kagami Emoji";
 }
 
 @function font-size($factor: 1.0) {
