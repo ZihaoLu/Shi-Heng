@@ -197,9 +197,10 @@ article {
 
 .social-link:hover {
   transform: translateY(-0.25em);
-  &.social-github { color: #bfbfbf; }
-  &.social-dribbble { color: #ea4c89; }
-  &.social-instagram { color: #63d2f8; }
+  &.social-weibo { color: #e6162d; }
+  &.social-zhihu { color: #0084ff; }
+  &.social-douban { color: #5ad162; }
+  &.social-rss { color: #f26522; }
 }
 
 .credits {
