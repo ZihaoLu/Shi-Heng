@@ -28,37 +28,44 @@ layout: default
   {% else %}
   {% assign posts = site.posts %}
   {% endif %}
-  {% for post in posts %}
+  {% for post in paginator.posts %}
   <li class="post-list-item" data-tags="{{ post.tags | join: " " }}">
-
-
-{% if post.cover_url %}
-<div class="post-item-cover" style="background-image: url('{{ post.cover_url }}')"></div>
-{% endif %}
-<div class="post-item-label">
-  <a class="post-item-link baseline-fix" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">
-    {{ post.title | escape }}
-  </a>
-  {% if post.description %}
-  <p class="post-description">{{ post.description }}</p>
-  {% endif %}
-  <div class="post-item-meta">
-    {{ post.date | date: "%B %-d, %Y" }}
-    /
-    {% capture lang %}{{ post.lang | default: site.lang | default: "zh-Hans" }}{% endcapture %}
-    {% if lang == "zh-Hans" %}
-    {% capture words %}{{ post.content | strip_html | number_of_words  }}{% endcapture %}
-    {% else %}
-    {% capture words %}{{ post.content | strip_html | size }}{% endcapture %}
+    <a class="post-item-link" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: "%m-%d"  }}">
+      {{ post.title | escape }}
+    </a>
+    {% if post.description %}
+    <p class="post-description">{{ post.description }}</p>
     {% endif %}
-    {% unless words contains "-" %}
-    {{ words | plus: 400 | divided_by: 200 | append: " minute read"  }}
-    {% endunless %}
-  </div>
-</div>
-
-
+    <div class="post-item-meta">
+      {{ post.date | date: "%B %-d, %Y" }}
+      /
+      {% capture lang %}{{ post.lang | default: site.lang | default: "zh-Hans" }}{% endcapture %}
+      {% if lang == "zh-Hans" %}
+      {% capture words %}{{ post.content | strip_html | number_of_words  }}{% endcapture %}
+      {% else %}
+      {% capture words %}{{ post.content | strip_html | size }}{% endcapture %}
+      {% endif %}
+      {% unless words contains "-" %}
+      {{ words | plus: 400 | divided_by: 200 | append: " minute read"  }}
+      {% endunless %}
+    </div>
   </li>
   {% endfor %}
 </ul>
+
+<!-- 分页 -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
 
