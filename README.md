@@ -1,6 +1,6 @@
-# zihaolu.io
+# Shi Heng's Blog
 
-Personal Blog of Zihao Lu
+A personal blog
 
 Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://github.com/kamikat/jekyll-theme-kagami">Kagami</a>
 

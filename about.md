@@ -6,9 +6,9 @@ navlevel: header
 navtitle: about
 ---
 
-陆梓豪，笔名時衡，设计师，1993年生于江苏无锡。
+時衡，本名陆梓豪，写作者，设计师，1993年生于江苏无锡。
 
-这里是他的博客，用以盛放他间歇发作的写作欲。
+这里是他的博客，用以盛放他涌动的灵感。
 
 &emsp;&emsp;No poem is intended for the reader,
 
@@ -16,19 +16,7 @@ navtitle: about
 
 &emsp;&emsp;No symphony for the listener.
 
-写作亦如本雅明的这段论述，聊以自娱而已。
-
----
-
-一些足迹：
-
-<a href="https://www.douban.com/people/LucienLorca/" target="_blank">豆瓣</a>&ensp;&#124;&ensp;<a href="https://www.zhihu.com/people/lorcha" target="_blank">知乎</a>&ensp;&#124;&ensp;<a href="https://weibo.com/lucientes" target="_blank">微博</a>&ensp;&#124;&ensp;<a href="https://www.instagram.com/zihaolucien/" target="_blank">Instagram</a>
-
-
-<a href="https://zihaolu.com" target="_blank">作品集</a>&ensp;&#124;&ensp;<a href="https://www.behance.net/zihaolu" target="_blank">Behance</a>&ensp;&#124;&ensp;<a href="https://dribbble.com/zihaolu" target="_blank">Dribbble</a>&ensp;&#124;&ensp;<a href="https://lucientes.zcool.com.cn/" target="_blank">站酷</a>
-
-
-<a href="https://readirector.com" target="_blank">选书师</a>&ensp;&#124;&ensp;<a href="https://github.com/ZihaoLu" target="_blank">GitHub</a>&ensp;&#124;&ensp;<a href="https://www.linkedin.com/in/zihaolu/" target="_blank">LinkedIn</a>
+写作亦如本雅明的这段论述，自娱，而后娱人。
 
 ---
 
