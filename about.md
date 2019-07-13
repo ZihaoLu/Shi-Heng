@@ -18,10 +18,7 @@ navtitle: about
 
 写作亦如本雅明的这段论述，自娱，而后娱人。
 
-&emsp;  
-
 ---
 
-&emsp;  
-
 如无特殊说明，本站内容均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">CC BY-NC-ND 4.0</a> 许可协议。
+
