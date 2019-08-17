@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 空白之页向四方展开
+description: 选书师 Readirector，创造我们的阅读时代。
 cover_url: https://i.loli.net/2019/02/01/5c53cef61e152.png
 tag: Read
 ---
@@ -36,4 +37,6 @@ Z世代系欧美流行用语，意指在1990年代中叶至2000年后出生的�
 ---
 
 欢迎访问：&ensp;<a href="https://readirector.com" target="_blank">选书师 Readirector</a>
+
+*(Photo Source: Readirector)*
 

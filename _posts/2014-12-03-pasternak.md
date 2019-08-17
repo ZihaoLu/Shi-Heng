@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 轰响泥泞的黑色春天
+description: 埋葬的是谁？日瓦戈。
 cover_url: https://i.loli.net/2018/11/03/5bdd1b5b59d79.png
 tag: Read
 ---
@@ -88,4 +89,6 @@ tag: Read
 &emsp;&emsp;另有抬棺的青年壮健的口哨   
 &emsp;&emsp;仰面瞧见破晓之东方   
 &emsp;&emsp;终于洗净刺目的殷红
+
+*(Photo Source: Wikipedia)*
 

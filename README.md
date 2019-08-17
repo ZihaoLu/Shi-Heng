@@ -1,4 +1,4 @@
-# Shi Heng's Blog
+# Shih Heng's Blog
 
 A personal blog
 
