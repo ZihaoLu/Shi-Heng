@@ -64,5 +64,5 @@ tag: Read
 
 &emsp;  
 &emsp;  
-*(Photo Source: Milad Aghazadeh, Michal Jarmoluk, Arif Riyanto, Rhema Kallianpur)*
+Photo Source: Milad Aghazadeh, Michal Jarmoluk, Arif Riyanto, Rhema Kallianpur
 

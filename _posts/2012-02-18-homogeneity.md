@@ -65,5 +65,5 @@ tag: Essay
 
 &emsp;  
 &emsp;  
-*(Photo Source: Henry Hustava, Carlos Ibáñez, Marc-Olivier Jodoin)*
+Photo Source: Henry Hustava, Carlos Ibáñez, Marc-Olivier Jodoin
 

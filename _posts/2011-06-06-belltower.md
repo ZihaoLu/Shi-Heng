@@ -108,5 +108,5 @@ tag: Fiction
 
 &emsp;  
 &emsp;  
-*(Photo Source: Romain Lenancker, Brandon Harman, Maxime Chillemi)*
+Photo Source: Romain Lenancker, Brandon Harman, Maxime Chillemi
 

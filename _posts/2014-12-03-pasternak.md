@@ -92,5 +92,5 @@ tag: Read
 
 &emsp;  
 &emsp;  
-*(Photo Source: Wikipedia)*
+Photo Source: Wikipedia
 

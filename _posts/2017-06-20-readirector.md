@@ -40,5 +40,5 @@ Z世代系欧美流行用语，意指在1990年代中叶至2000年后出生的�
 
 &emsp;  
 &emsp;  
-*(Photo Source: Readirector)*
+Photo Source: Readirector
 
