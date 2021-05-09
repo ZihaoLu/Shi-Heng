@@ -6,9 +6,9 @@ navlevel: header
 navtitle: about
 ---
 
-時衡，写作者，设计师，1993年生于江苏无锡。
+時衡，平面設計師，寫作者，詩人，1993 年生於江蘇無錫。
 
-这里是他的博客，用以盛放他涌动的灵感。
+這裏是他的博客，用以盛放他涌動的靈感。
 
 &emsp;&emsp;No poem is intended for the reader,
 
@@ -16,9 +16,9 @@ navtitle: about
 
 &emsp;&emsp;No symphony for the listener.
 
-写作亦如本雅明的这段论述，自娱，而后娱人。
+寫作亦如本雅明的這段論述，自娛，而後娛人。
 
 ---
 
-如无特殊说明，本站内容均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">CC BY-NC-ND 4.0</a> 许可协议。
+如無特殊説明，本站內容均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW" target="_blank">CC BY-NC-ND 4.0</a> 許可協議。
 
