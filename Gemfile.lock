@@ -49,6 +49,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.6.3，>= 3.6.3)
   jekyll-theme-kagami!
+  bundler (~> 2.2.10，>= 2.2.10)
 
 BUNDLED WITH
    2.2.10
