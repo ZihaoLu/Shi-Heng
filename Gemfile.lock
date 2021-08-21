@@ -1,7 +1,7 @@
 PATH
   remote: ..
   specs:
-    jekyll-theme-kagami (0.1.12)
+    jekyll-theme-kagami (0.2.0)
       jekyll (~> 3.6.3，>= 3.6.3)
 
 GEM
