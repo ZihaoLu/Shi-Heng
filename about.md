@@ -20,5 +20,5 @@ navtitle: about
 
 ---
 
-如無特殊説明，本站內容均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW" target="_blank">CC BY-NC-ND 4.0</a> 許可協議。
+如無特殊説明，本站內容均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">CC BY-NC-ND 4.0</a> 許可協議。
 
