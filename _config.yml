@@ -22,7 +22,7 @@ douban_username: LucienLorca
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-kagami
+remote_theme: kamikat/jekyll-theme-kagami
 
 exclude:
 - Gemfile
