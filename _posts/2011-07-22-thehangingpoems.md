@@ -2,7 +2,7 @@
 layout: post
 title: 悬诗
 description: 你是何人？诗歌之囚徒。
-cover_url: https://s2.loli.net/2022/04/10/DHyO6gojILVhrPz.jpg
+cover_url: https://s2.loli.net/2022/04/10/l6QR3YOEPDHbKpr.jpg
 tag: Fiction
 ---
 
