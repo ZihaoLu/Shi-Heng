@@ -3,7 +3,7 @@ layout: post
 title: 一碗松灯夜读书
 description: 唯有这读书的夜，可以解百忧。
 cover_url: https://i.loli.net/2019/08/17/nr97bushizvKZY3.jpg
-tag: Read
+tag: Essay
 ---
 
 一个人的读书记忆，就如天上风云变幻，喜则如彩虹出岫，忧则如大雾弥天，哀则如暴雨倾盆，关联的不仅仅是书本身，更有与之相关的人与事与情，要追溯它们乃至缀连成文，谈何容易。

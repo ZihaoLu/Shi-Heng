@@ -3,7 +3,7 @@ layout: post
 title: 空白之页向四方展开
 description: 选书师 Readirector，创造我们的阅读时代。
 cover_url: https://i.loli.net/2019/02/01/5c53cef61e152.png
-tag: Read
+tag: Essay
 ---
 
 书籍是文字的密林，阅读是诱人的长征。一个时代必有一个时代的阅读风尚，新的时代往往孕育出新的阅读思潮。
