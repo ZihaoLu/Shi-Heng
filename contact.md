@@ -8,4 +8,4 @@ navtitle: contact
 
 對一个電話恐懼症患者來説，書信是安全的。
 
-[lucienlorca@foxmail.com](mailto:lucienlorca@foxmail.com)
+[info@shi-heng.com](mailto:info@shi-heng.com)
