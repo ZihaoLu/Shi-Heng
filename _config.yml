@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: ""
 
-lang: zh # site language (en/ja/zh-Hans/zh-Hant)
+lang: zh-Hans # site language (en/ja/zh-Hans/zh-Hant)
 
 color_scheme: github # this specifies color scheme for syntax highlighting
 
