@@ -1,6 +1,7 @@
 [lang^="en"]      { line-height: 1.6; @include font-serif; }
-[lang^="zh-Hans"] { line-height: 1.8; @include font-serif-zh-Hans; }
-[lang^="zh-Hant"] { line-height: 1.8; @include font-serif-zh-Hant; }
+[lang^="zh"]      { line-height: 1.8; @include font-serif; }
+[lang^="zh-Hans"]      { line-height: 1.8; @include font-serif-zh-Hans; }
+[lang^="zh-Hant"]      { line-height: 1.8; @include font-serif-zh-Hant; }
 [lang^="ja"]      { line-height: 1.8; @include font-serif-ja; }
 
 body {
@@ -197,8 +198,6 @@ article {
 
 .social-link:hover {
   transform: translateY(-0.25em);
-  &.social-weibo { color: #e6162d; }
-  &.social-zhihu { color: #0084ff; }
   &.social-douban { color: #5ad162; }
   &.social-rss { color: #f26522; }
 }
