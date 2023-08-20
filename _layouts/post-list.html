@@ -44,16 +44,6 @@ layout: default
   {% endif %}
   <div class="post-item-meta">
     {{ post.date | date: "%B %-d, %Y" }}
-    /
-    {% capture lang %}{{ post.lang | default: site.lang | default: "zh-Hans" }}{% endcapture %}
-    {% if lang == "zh-Hans" %}
-    {% capture words %}{{ post.content | strip_html | number_of_words  }}{% endcapture %}
-    {% else %}
-    {% capture words %}{{ post.content | strip_html | size }}{% endcapture %}
-    {% endif %}
-    {% unless words contains "-" %}
-    {{ words | plus: 400 | divided_by: 200 | append: " minute read"  }}
-    {% endunless %}
   </div>
 </div>
 
