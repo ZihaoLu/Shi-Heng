@@ -1,15 +1,14 @@
 ---
 layout: page
-lang: zh-Hant
 title: About
 position: 100
 navlevel: header
 navtitle: about
 ---
 
-時衡，設計師，寫作者，1993 年生於江蘇無錫。
+時衡，设计师，写作者，1993 年生于江苏无锡。
 
-這裏是他的博客，用以盛放他涌動的靈感。
+这里是他的博客，用以盛放他涌动的灵感。
 
 &emsp;&emsp;No poem is intended for the reader,
 
@@ -17,4 +16,4 @@ navtitle: about
 
 &emsp;&emsp;No symphony for the listener.
 
-寫作亦如本雅明的這段論述，自娛，而後娛人。
+写作亦如本雅明的这段论述，自娱，而后娱人。
