@@ -8,14 +8,14 @@
     <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
     <description>{{ site.description }}</description>
     <language>zh-Hans</language>
-    <pubDate>{{ site.time | date: %B %-d, %Y" }}</pubDate>
-    <lastBuildDate>{{ site.time | date: %B %-d, %Y }}</lastBuildDate>
+    <pubDate>{{ site.time | date: "%B %-d, %Y" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%B %-d, %Y" }}</lastBuildDate>
 
     {% for post in site.posts limit: 10 %}
       <item>
         <title>{{ post.title }}</title>
         <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
-        <pubDate>{{ post.date | date: %B %-d, %Y }}</pubDate>
+        <pubDate>{{ post.date | date: "%B %-d, %Y" }}</pubDate>
         <author>{{ site.author }}</author>
         <description>{{ post.description | xml_escape }}</description>
       </item>
