@@ -51,11 +51,11 @@
 }
 
 @mixin font-serif-zh-Hans($font-family-fallback: serif) {
-  font-family: "Crimson Text", "GenRyuMin JP", "Noto Serif SC", Georgia, "Nimbus Roman No9 L", "Kagami SC", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "GenRyuMin JP", "Noto Serif SC", "Noto Serif TC", Georgia, "Nimbus Roman No9 L", "Kagami SC", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-zh-Hant($font-family-fallback: serif) {
-  font-family: "Crimson Text", "GenRyuMin TW", "Noto Serif TC", Georgia, "Nimbus Roman No9 L", "Kagami TC", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, $font-family-fallback, "Kagami Emoji";
+  font-family: "Crimson Text", "GenRyuMin TW", "Noto Serif TC", "Noto Serif SC", Georgia, "Nimbus Roman No9 L", "Kagami TC", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, $font-family-fallback, "Kagami Emoji";
 }
 
 @mixin font-serif-ja($font-family-fallback: serif) {
